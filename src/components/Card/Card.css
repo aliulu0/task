@@ -1,0 +1,104 @@
+.control-panel-body-row {
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  opacity: 0.7;
+  margin: 5px 0;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(0, 255, 255);
+  padding-left: 2px;
+}
+.row-detail {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100px;
+}
+.row-detail span {
+  width: 30px;
+}
+.button-active {
+  border: 1px solid white;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  width: 55px;
+  padding: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: #111;
+}
+
+.row-detail img {
+  width: 40px;
+  margin-left: 50px;
+}
+.row button{
+  text-align: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.control-type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.add-button {
+  display: flex;
+  align-items: center;
+  background-color: #010101;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  height: 3.3rem;
+  padding: 0 5px;
+  right: 0;
+  cursor: pointer;
+}
+
+.control-type-button {
+  border: 1px solid white;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  width: 60px;
+  background-color: #010101;
+  margin: 0 10px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.button-focus {
+  background-color: cadetblue;
+  color: #111;
+}
+.control-type-button img {
+  width: 20px;
+  padding: 2px;
+}
+.control-type input[type="image"]{
+  padding: 10px;
+  width: 30px;
+  height: 20px;
+  
+}
+
+.control-type-value {
+  display: flex;
+  margin: 0 20px;
+  font-family: "digital-7";
+  font-size: 30px;
+  border: 0;
+  background-color: transparent;
+  color: chartreuse;
+}

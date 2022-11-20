@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "digital-7";
+  src: url("../../assets/fonts/digital-7.regular.ttf");
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 600px;
+  width: 100%
+}
+.control-panel {
+  width: 60%;
+  padding: 10px;
+}
+.control-panel-header {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #111;
+  opacity: 0.7;
+  color: white;
+}
+.control-panel-header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.control-panel-input {
+  background-color: #010101;
+  color: white;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 800;
+}
+.control-panel-input::placeholder {
+    color: white;
+}
+.control-panel-buttons {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  display: flex;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.btn img {
+  width: 35px;
+  border-radius: 50%;
+}
+.cancel-button {
+  background-color: red;
+}
+.save-button {
+  background-color: chartreuse;
+}
+.control-panel-header-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px 15px;
+}
+.control-panel-header-bottom-radius {
+  display: flex;
+}
+.control-panel-header-bottom-radius input {
+  cursor: pointer;
+  accent-color: chartreuse;
+}
+
+.control-panel-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  max-height: 465px;
+}
+.control-panel-body .control-panel-body-height {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
